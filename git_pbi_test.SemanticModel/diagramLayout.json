@@ -10,13 +10,13 @@
       "nodes": [
         {
           "location": {
-            "x": 0,
-            "y": 0
+            "x": 284,
+            "y": 38
           },
-          "nodeIndex": "Emp Details",
-          "nodeLineageTag": "2e68230c-ee41-4f11-b5e6-bd44ae77c187",
+          "nodeIndex": "Leave Data",
+          "nodeLineageTag": "f48dad81-ec62-4bb1-a33c-9d6c26e347ef",
           "size": {
-            "height": 300,
+            "height": 224,
             "width": 234
           },
           "zIndex": 0
