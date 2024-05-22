@@ -48,13 +48,13 @@
       "ordinal": 1,
       "visualContainers": [
         {
-          "config": "{\"name\":\"3bbdc170be0384a27373\",\"layouts\":[{\"id\":0,\"position\":{\"x\":712.4464232162219,\"y\":162.520934738979,\"z\":1,\"width\":298.58497312510093,\"height\":300.4747514360193}}],\"singleVisual\":{\"visualType\":\"donutChart\",\"projections\":{\"Category\":[{\"queryRef\":\"Emp Details.gender\",\"active\":true}],\"Y\":[{\"queryRef\":\"Emp Details.total salary\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"e\",\"Entity\":\"Emp Details\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"e\"}},\"Property\":\"gender\"},\"Name\":\"Emp Details.gender\",\"NativeReferenceName\":\"gender\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"e\"}},\"Property\":\"total salary\"},\"Name\":\"Emp Details.total salary\",\"NativeReferenceName\":\"total salary\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"e\"}},\"Property\":\"total salary\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true}}",
+          "config": "{\"name\":\"3bbdc170be0384a27373\",\"layouts\":[{\"id\":0,\"position\":{\"x\":712.4464232162219,\"y\":162.520934738979,\"z\":1000,\"width\":298.58497312510093,\"height\":300.4747514360193}}],\"singleVisual\":{\"visualType\":\"donutChart\",\"projections\":{\"Category\":[{\"queryRef\":\"Emp Details.gender\",\"active\":true}],\"Y\":[{\"queryRef\":\"Emp Details.total salary\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"e\",\"Entity\":\"Emp Details\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"e\"}},\"Property\":\"gender\"},\"Name\":\"Emp Details.gender\",\"NativeReferenceName\":\"gender\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"e\"}},\"Property\":\"total salary\"},\"Name\":\"Emp Details.total salary\",\"NativeReferenceName\":\"total salary\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"e\"}},\"Property\":\"total salary\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true}}",
           "filters": "[]",
           "height": 300.47,
           "width": 298.58,
           "x": 712.45,
           "y": 162.52,
-          "z": 1.00
+          "z": 1000.00
         },
         {
           "config": "{\"name\":\"412fef0707196ea916dd\",\"layouts\":[{\"id\":0,\"position\":{\"x\":147.4027082516321,\"y\":100.1582504786731,\"z\":0,\"width\":298.58497312510093,\"height\":300.4747514360193}}],\"singleVisual\":{\"visualType\":\"clusteredColumnChart\",\"projections\":{\"Y\":[{\"queryRef\":\"Emp Details.total salary\"}],\"Category\":[{\"queryRef\":\"Emp Details.gender\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"e\",\"Entity\":\"Emp Details\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"e\"}},\"Property\":\"total salary\"},\"Name\":\"Emp Details.total salary\",\"NativeReferenceName\":\"total salary\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"e\"}},\"Property\":\"gender\"},\"Name\":\"Emp Details.gender\",\"NativeReferenceName\":\"gender\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"e\"}},\"Property\":\"total salary\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true}}",
@@ -66,13 +66,13 @@
           "z": 0.00
         },
         {
-          "config": "{\"name\":\"b0944242e018592a7004\",\"layouts\":[{\"id\":0,\"position\":{\"x\":413.86145009112096,\"y\":440.318346443978,\"z\":2,\"width\":298.58497312510093,\"height\":279.68719001591734}}],\"singleVisual\":{\"visualType\":\"pieChart\",\"projections\":{\"Category\":[{\"queryRef\":\"Emp Details.gender\",\"active\":true}],\"Y\":[{\"queryRef\":\"Emp Details.total salary\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"e\",\"Entity\":\"Emp Details\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"e\"}},\"Property\":\"gender\"},\"Name\":\"Emp Details.gender\",\"NativeReferenceName\":\"gender\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"e\"}},\"Property\":\"total salary\"},\"Name\":\"Emp Details.total salary\",\"NativeReferenceName\":\"total salary\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"e\"}},\"Property\":\"total salary\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true}}",
+          "config": "{\"name\":\"b0944242e018592a7004\",\"layouts\":[{\"id\":0,\"position\":{\"x\":413.86145009112096,\"y\":440.318346443978,\"z\":2000,\"width\":298.58497312510093,\"height\":279.68719001591734}}],\"singleVisual\":{\"visualType\":\"pieChart\",\"projections\":{\"Category\":[{\"queryRef\":\"Emp Details.gender\",\"active\":true}],\"Y\":[{\"queryRef\":\"Emp Details.total salary\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"e\",\"Entity\":\"Emp Details\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"e\"}},\"Property\":\"gender\"},\"Name\":\"Emp Details.gender\",\"NativeReferenceName\":\"gender\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"e\"}},\"Property\":\"total salary\"},\"Name\":\"Emp Details.total salary\",\"NativeReferenceName\":\"total salary\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"e\"}},\"Property\":\"total salary\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true}}",
           "filters": "[]",
           "height": 279.69,
           "width": 298.58,
           "x": 413.86,
           "y": 440.32,
-          "z": 2.00
+          "z": 2000.00
         }
       ],
       "width": 1280.00
