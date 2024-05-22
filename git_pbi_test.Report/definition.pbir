@@ -1,0 +1,9 @@
+{
+  "version": "4.0",
+  "datasetReference": {
+    "byPath": {
+      "path": "../git_pbi_test.SemanticModel"
+    },
+    "byConnection": null
+  }
+}
