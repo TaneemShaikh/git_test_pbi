@@ -1,6 +1,5 @@
 {
-  "config": "{\"version\":\"5.51\",\"themeCollection\":{\"baseTheme\":{\"name\":\"CY24SU02\",\"version\":\"5.53\",\"type\":2}},\"activeSectionIndex\":1,\"defaultDrillFilterOtherVisuals\":true,\"linguisticSchemaSyncVersion\":2,\"settings\":{\"useNewFilterPaneExperience\":true,\"allowChangeFilterTypes\":true,\"useStylableVisualContainerHeader\":true,\"queryLimitOption\":6,\"exportDataMode\":1,\"useDefaultAggregateDisplayName\":true},\"objects\":{\"section\":[{\"properties\":{\"verticalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Top'\"}}}}}]}}",
-  "config": "{\"version\":\"5.51\",\"themeCollection\":{\"baseTheme\":{\"name\":\"CY24SU02\",\"version\":\"5.53\",\"type\":2}},\"activeSectionIndex\":1,\"defaultDrillFilterOtherVisuals\":true,\"linguisticSchemaSyncVersion\":2,\"settings\":{\"useNewFilterPaneExperience\":true,\"allowChangeFilterTypes\":true,\"useStylableVisualContainerHeader\":true,\"queryLimitOption\":6,\"exportDataMode\":1,\"useDefaultAggregateDisplayName\":true,\"useEnhancedTooltips\":true},\"objects\":{\"section\":[{\"properties\":{\"verticalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Top'\"}}}}}]}}",
+  "config": "{\"version\":\"5.51\",\"themeCollection\":{\"baseTheme\":{\"name\":\"CY24SU02\",\"version\":\"5.53\",\"type\":2}},\"activeSectionIndex\":3,\"defaultDrillFilterOtherVisuals\":true,\"linguisticSchemaSyncVersion\":2,\"settings\":{\"useNewFilterPaneExperience\":true,\"allowChangeFilterTypes\":true,\"useStylableVisualContainerHeader\":true,\"queryLimitOption\":6,\"exportDataMode\":1,\"useDefaultAggregateDisplayName\":true,\"useEnhancedTooltips\":true},\"objects\":{\"section\":[{\"properties\":{\"verticalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Top'\"}}}}}]}}",
   "filters": "[]",
   "layoutOptimization": 0,
   "resourcePackages": [
@@ -42,6 +41,27 @@
     },
     {
       "config": "{}",
+      "displayName": "new Profit and discount",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "ReportSection1293616fc07c0c0dda03",
+      "ordinal": 3,
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"b8da569c26cec0494059\",\"layouts\":[{\"id\":0,\"position\":{\"x\":9.448891554591802,\"y\":0,\"z\":0,\"width\":1269.9310249371383,\"height\":720.0055364598953,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"columnChart\",\"projections\":{\"Category\":[{\"queryRef\":\"Sheet1.Date.Variation.Date Hierarchy.Month\",\"active\":true}],\"Y\":[{\"queryRef\":\"Sum(Sheet1.Profit)\"},{\"queryRef\":\"Sum(Sheet1.Discounts)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"s\",\"Entity\":\"Sheet1\",\"Type\":0}],\"Select\":[{\"HierarchyLevel\":{\"Expression\":{\"Hierarchy\":{\"Expression\":{\"PropertyVariationSource\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Name\":\"Variation\",\"Property\":\"Date\"}},\"Hierarchy\":\"Date Hierarchy\"}},\"Level\":\"Month\"},\"Name\":\"Sheet1.Date.Variation.Date Hierarchy.Month\",\"NativeReferenceName\":\"Date Month\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"Profit\"}},\"Function\":0},\"Name\":\"Sum(Sheet1.Profit)\",\"NativeReferenceName\":\"Sum of Profit\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"Discounts\"}},\"Function\":0},\"Name\":\"Sum(Sheet1.Discounts)\",\"NativeReferenceName\":\"Sum of Discounts\"}]},\"drillFilterOtherVisuals\":true}}",
+          "filters": "[]",
+          "height": 720.01,
+          "width": 1269.93,
+          "x": 9.45,
+          "y": 0.00,
+          "z": 0.00
+        }
+      ],
+      "width": 1280.00
+    },
+    {
+      "config": "{}",
       "displayName": "Sales and Profit",
       "displayOption": 1,
       "filters": "[]",
@@ -57,15 +77,18 @@
           "x": 0.00,
           "y": 0.00,
           "z": 0.00
-        }]
+        }
+      ],
+      "width": 960.00
     },
-    {    
+    {
+      "config": "{}",
       "displayName": "added new ",
       "displayOption": 1,
       "filters": "[]",
       "height": 720.00,
       "name": "c22a387d1a89e37a08c2",
-      "ordinal": 1,
+      "ordinal": 2,
       "visualContainers": [
         {
           "config": "{\"name\":\"438330d3b1609c606159\",\"layouts\":[{\"id\":0,\"position\":{\"x\":9.448891554591802,\"y\":0,\"z\":0,\"width\":506.4605873261206,\"height\":478.1139126623452,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"donutChart\",\"projections\":{\"Category\":[{\"queryRef\":\"Sheet1.Date.Variation.Date Hierarchy.Month\",\"active\":true}],\"Y\":[{\"queryRef\":\"Sum(Sheet1.Profit)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"s\",\"Entity\":\"Sheet1\",\"Type\":0}],\"Select\":[{\"HierarchyLevel\":{\"Expression\":{\"Hierarchy\":{\"Expression\":{\"PropertyVariationSource\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Name\":\"Variation\",\"Property\":\"Date\"}},\"Hierarchy\":\"Date Hierarchy\"}},\"Level\":\"Month\"},\"Name\":\"Sheet1.Date.Variation.Date Hierarchy.Month\",\"NativeReferenceName\":\"Date Month\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"Profit\"}},\"Function\":0},\"Name\":\"Sum(Sheet1.Profit)\",\"NativeReferenceName\":\"Sum of Profit\"}]},\"drillFilterOtherVisuals\":true}}",
@@ -77,17 +100,16 @@
           "z": 0.00
         },
         {
-          "config": "{\"name\":\"9013ce842a961b0618e2\",\"layouts\":[{\"id\":0,\"position\":{\"x\":695.4384184179567,\"y\":207.87561420101966,\"z\":1,\"width\":506.4605873261206,\"height\":478.1139126623452,\"tabOrder\":1}}],\"singleVisual\":{\"visualType\":\"columnChart\",\"projections\":{\"Category\":[{\"queryRef\":\"Sheet1.Date.Variation.Date Hierarchy.Month\",\"active\":true}],\"Y\":[{\"queryRef\":\"Sum(Sheet1.Profit)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"s\",\"Entity\":\"Sheet1\",\"Type\":0}],\"Select\":[{\"HierarchyLevel\":{\"Expression\":{\"Hierarchy\":{\"Expression\":{\"PropertyVariationSource\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Name\":\"Variation\",\"Property\":\"Date\"}},\"Hierarchy\":\"Date Hierarchy\"}},\"Level\":\"Month\"},\"Name\":\"Sheet1.Date.Variation.Date Hierarchy.Month\",\"NativeReferenceName\":\"Date Month\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"Profit\"}},\"Function\":0},\"Name\":\"Sum(Sheet1.Profit)\",\"NativeReferenceName\":\"Sum of Profit\"}]},\"drillFilterOtherVisuals\":true}}",
+          "config": "{\"name\":\"9013ce842a961b0618e2\",\"layouts\":[{\"id\":0,\"position\":{\"x\":695.4384184179567,\"y\":207.87561420101966,\"z\":1000,\"width\":506.4605873261206,\"height\":478.1139126623452,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"columnChart\",\"projections\":{\"Category\":[{\"queryRef\":\"Sheet1.Date.Variation.Date Hierarchy.Month\",\"active\":true}],\"Y\":[{\"queryRef\":\"Sum(Sheet1.Profit)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"s\",\"Entity\":\"Sheet1\",\"Type\":0}],\"Select\":[{\"HierarchyLevel\":{\"Expression\":{\"Hierarchy\":{\"Expression\":{\"PropertyVariationSource\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Name\":\"Variation\",\"Property\":\"Date\"}},\"Hierarchy\":\"Date Hierarchy\"}},\"Level\":\"Month\"},\"Name\":\"Sheet1.Date.Variation.Date Hierarchy.Month\",\"NativeReferenceName\":\"Date Month\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"Profit\"}},\"Function\":0},\"Name\":\"Sum(Sheet1.Profit)\",\"NativeReferenceName\":\"Sum of Profit\"}]},\"drillFilterOtherVisuals\":true}}",
           "filters": "[]",
           "height": 478.11,
           "width": 506.46,
           "x": 695.44,
           "y": 207.88,
-          "z": 1.00
+          "z": 1000.00
         }
       ],
       "width": 1280.00
     }
   ]
 }
-  
