@@ -21,20 +21,20 @@
   "sections": [
     {
       "config": "{}",
-      "displayName": "Salary ",
+      "displayName": "Profit",
       "displayOption": 1,
       "filters": "[]",
       "height": 720.00,
       "name": "ReportSection",
       "visualContainers": [
         {
-          "config": "{\"name\":\"8d1b91b479ea86ee58a1\",\"layouts\":[{\"id\":0,\"position\":{\"x\":504.57080901520226,\"y\":275.9076333940806,\"z\":1,\"width\":298.58497312510093,\"height\":300.4747514360193,\"tabOrder\":1}}],\"singleVisual\":{\"visualType\":\"tableEx\",\"projections\":{\"Values\":[{\"queryRef\":\"Leave Data.Leave Type\"},{\"queryRef\":\"CountNonNull(Leave Data.Employee ID)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"l\",\"Entity\":\"Leave Data\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"l\"}},\"Property\":\"Leave Type\"},\"Name\":\"Leave Data.Leave Type\",\"NativeReferenceName\":\"Leave Type\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"l\"}},\"Property\":\"Employee ID\"}},\"Function\":5},\"Name\":\"CountNonNull(Leave Data.Employee ID)\",\"NativeReferenceName\":\"Count of Employee ID\"}]},\"drillFilterOtherVisuals\":true}}",
+          "config": "{\"name\":\"015e36e70641017401ee\",\"layouts\":[{\"id\":0,\"position\":{\"x\":9.448891554591802,\"y\":0,\"z\":0,\"width\":716.2259798380586,\"height\":720.0055364598953,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"barChart\",\"projections\":{\"Category\":[{\"queryRef\":\"Sheet1.Date.Variation.Date Hierarchy.Month\",\"active\":true}],\"Y\":[{\"queryRef\":\"Sum(Sheet1.Profit)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"s\",\"Entity\":\"Sheet1\",\"Type\":0}],\"Select\":[{\"HierarchyLevel\":{\"Expression\":{\"Hierarchy\":{\"Expression\":{\"PropertyVariationSource\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Name\":\"Variation\",\"Property\":\"Date\"}},\"Hierarchy\":\"Date Hierarchy\"}},\"Level\":\"Month\"},\"Name\":\"Sheet1.Date.Variation.Date Hierarchy.Month\",\"NativeReferenceName\":\"Date Month\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"Profit\"}},\"Function\":0},\"Name\":\"Sum(Sheet1.Profit)\",\"NativeReferenceName\":\"Sum of Profit\"}]},\"drillFilterOtherVisuals\":true}}",
           "filters": "[]",
-          "height": 300.47,
-          "width": 298.58,
-          "x": 504.57,
-          "y": 275.91,
-          "z": 1.00
+          "height": 720.01,
+          "width": 716.23,
+          "x": 9.45,
+          "y": 0.00,
+          "z": 0.00
         }
       ],
       "width": 1280.00
